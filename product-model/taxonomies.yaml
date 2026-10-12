@@ -1,0 +1,10 @@
+scenarioKinds:
+- id: primary
+  name: Primary
+  description: An established successful route or successful alternative.
+- id: validation
+  name: Validation
+  description: An observed refusal or invalid input without the guarded mutation.
+- id: edge
+  name: Edge
+  description: An observed conflict, dependency failure, or partial progress.

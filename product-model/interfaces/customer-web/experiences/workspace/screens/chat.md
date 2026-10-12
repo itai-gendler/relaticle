@@ -1,0 +1,590 @@
+---
+entities:
+- entity: conversation
+  shows:
+  - Title
+- entity: message
+  shows:
+  - Content
+  - Processing Outcome
+- entity: reply
+  shows:
+  - Content
+  - Response Outcome
+  - Results
+- entity: company
+  shows:
+  - Name
+  - Account Owner
+  - Domains
+  - ICP
+  - LinkedIn
+  - Additional Values
+  - Creation Source
+  - Created At
+  - Changed At
+- entity: person
+  shows:
+  - Name
+  - Company
+  - Emails
+  - Phone Numbers
+  - Job Title
+  - LinkedIn
+  - Additional Values
+  - Creation Source
+  - Created At
+  - Changed At
+- entity: opportunity
+  shows:
+  - Name
+  - Company
+  - Point of Contact
+  - Stage
+  - Amount
+  - Close Date
+  - Order
+  - Additional Values
+  - Creation Source
+  - Created At
+  - Changed At
+- entity: task
+  shows:
+  - Title
+  - Status
+  - Priority
+  - Due Date
+  - Description
+  - Assignees
+  - Companies
+  - People
+  - Opportunities
+  - Order
+  - Additional Values
+  - Creation Source
+  - Created At
+  - Changed At
+- entity: note
+  shows:
+  - Title
+  - Body
+  - Companies
+  - People
+  - Opportunities
+  - Additional Values
+  - Creation Source
+  - Created At
+  - Changed At
+- entity: custom-field
+  shows:
+  - Name
+  - Code
+  - Record Type
+  - Field Type
+  - Active
+  - System Defined
+  - Required
+  - Order
+- entity: custom-field-option
+  shows:
+  - Name
+  - Order
+  - Field
+- entity: activity
+  shows:
+  - Actor
+  - Subject
+  - Change
+  - Source
+  - Time
+  - Import Summary
+- entity: account
+  shows:
+  - Name
+  - Email
+- entity: membership
+  shows:
+  - Role
+- entity: workspace
+  shows:
+  - Name
+- entity: credit-balance
+  shows:
+  - Remaining
+- entity: opportunity-creation-proposal
+  shows:
+  - Proposed Name
+  - Proposed Company
+  - Proposed Point of Contact
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Proposed Name
+  - Proposed Company
+  - Proposed Point of Contact
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: company-edit-proposal
+  shows:
+  - Targets
+  - Earlier Company Values
+  - Proposed Company Values
+  - Proposed Account Owner
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Targets
+  - Earlier Company Values
+  - Proposed Company Values
+  - Proposed Account Owner
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: record-deletion-proposal
+  shows:
+  - Record Kind
+  - Targets
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Record Kind
+  - Targets
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: company-creation-proposal
+  shows:
+  - Proposed Name
+  - Proposed Account Owner
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Proposed Name
+  - Proposed Account Owner
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: note-creation-proposal
+  shows:
+  - Proposed Title
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Proposed Title
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: custom-field-options-proposal
+  shows:
+  - Target Field
+  - Current Options
+  - Desired Options
+  - Desired Order
+  - Removal Replacement Plan
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Target Field
+  - Current Options
+  - Desired Options
+  - Desired Order
+  - Removal Replacement Plan
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: custom-field-creation-proposal
+  shows:
+  - Proposed Name
+  - Proposed Code
+  - Proposed Record Type
+  - Proposed Field Type
+  - Proposed Options
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Proposed Name
+  - Proposed Code
+  - Proposed Record Type
+  - Proposed Field Type
+  - Proposed Options
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: task-edit-proposal
+  shows:
+  - Targets
+  - Earlier Task Values
+  - Proposed Task Values
+  - Proposed Assignees
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Targets
+  - Earlier Task Values
+  - Proposed Task Values
+  - Proposed Assignees
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: opportunity-edit-proposal
+  shows:
+  - Targets
+  - Earlier Opportunity Values
+  - Proposed Opportunity Values
+  - Proposed Company
+  - Proposed Point of Contact
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Targets
+  - Earlier Opportunity Values
+  - Proposed Opportunity Values
+  - Proposed Company
+  - Proposed Point of Contact
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: custom-field-deletion-proposal
+  shows:
+  - Target Fields
+  - Affected Values
+  - Affected Options
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Target Fields
+  - Affected Values
+  - Affected Options
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: note-edit-proposal
+  shows:
+  - Targets
+  - Earlier Note Values
+  - Proposed Note Values
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Targets
+  - Earlier Note Values
+  - Proposed Note Values
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: person-creation-proposal
+  shows:
+  - Proposed Name
+  - Proposed Company
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Proposed Name
+  - Proposed Company
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: task-creation-proposal
+  shows:
+  - Proposed Title
+  - Proposed Assignees
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Proposed Title
+  - Proposed Assignees
+  - Proposed Companies
+  - Proposed People
+  - Proposed Opportunities
+  - Proposed Additional Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: custom-field-edit-proposal
+  shows:
+  - Target Field
+  - Earlier Definition Values
+  - Proposed Definition Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Target Field
+  - Earlier Definition Values
+  - Proposed Definition Values
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: workspace-invitation-proposal
+  shows:
+  - Proposed Emails and Roles
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Proposed Emails and Roles
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+- entity: person-edit-proposal
+  shows:
+  - Targets
+  - Earlier Person Values
+  - Proposed Person Values
+  - Proposed Company
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+  collects:
+  - Targets
+  - Earlier Person Values
+  - Proposed Person Values
+  - Proposed Company
+  - Requester
+  - Workspace
+  - Conversation
+  - Turn
+  - Valid Until
+  - Decision
+  - Decision Time
+  - Dependencies
+  - Results
+references:
+- kind: code
+  role: implementation
+  target: packages/Chat/src/Livewire/Chat/ChatInterface.php
+---
+
+# Chat
+
+One personal workspace conversation, its response and proposed changes, with the inspected record, definition, directory and activity result facts.
