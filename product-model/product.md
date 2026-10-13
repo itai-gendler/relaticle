@@ -4,6 +4,12 @@ summary: Workspace CRM with Companies, People, Opportunities, Tasks, Notes and R
 category: customer-relationship-management
 languages:
 - en
+limitations:
+- Rela saves no record change itself; each suggested write waits for the requesting person's decision.
+- An External AI Agent acts with its person's credential in one Workspace, outside Rela's proposal review.
+- Deleted records stay restorable; only Workspace owners and admins remove them permanently.
+- Rela responses draw on the Workspace's shared AI credit allowance; other CRM work spends no credits.
+- The product ships in English; other languages are left to self-hosted translations.
 references:
 - kind: code
   role: implementation
