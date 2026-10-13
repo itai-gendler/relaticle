@@ -15,4 +15,4 @@ references:
 
 # Set up a Workspace
 
-Complete inspected use-case and optional invitation setup, then reach the configured Home or personal setup Chat.
+Complete inspected setup (a mailbox and its sharing level first where Email Integration is enabled, then the use case and optional invitations) and reach the configured Home or personal setup Chat.

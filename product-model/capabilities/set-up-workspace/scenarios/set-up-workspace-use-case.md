@@ -70,7 +70,7 @@ references:
 
 ## Trigger
 
-An additional owned Workspace is at Use Case. The selected use case has a stage preset, the Stage definition exists, and there are no Opportunities, including deleted ones.
+An additional owned Workspace begins setup at Use Case. The selected use case has a stage preset, the Stage definition exists, and there are no Opportunities, including deleted ones.
 
 ## Outcome
 

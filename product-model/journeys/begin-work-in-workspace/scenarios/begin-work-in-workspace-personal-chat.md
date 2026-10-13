@@ -86,7 +86,7 @@ steps:
       place: customer-web::workspace::workspace-setup
   actor: workspace-owner
   capability: create-workspace
-- text: Save the use-case and finish the optional invitation step
+- text: Complete the required setup steps and finish the optional invitation step
   kind: actor
   entities: []
   contexts:
@@ -128,7 +128,7 @@ references:
 
 ## Trigger
 
-The signed-in Account creates an owned Workspace through the inspected use-case setup path with Email Integration disabled. Setup Conversation is enabled, this is the first owned personal workspace, and its eligible setup conversation exists.
+The signed-in Account creates an owned Workspace through the inspected setup path. Setup Conversation is enabled, this is the first owned personal workspace, and its eligible setup conversation exists.
 
 ## Outcome
 

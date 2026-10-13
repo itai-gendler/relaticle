@@ -75,7 +75,7 @@ steps:
       place: customer-web::workspace::workspace-setup
   actor: workspace-owner
   capability: create-workspace
-- text: Save the use-case and finish the optional invitation step
+- text: Complete the required setup steps and finish the optional invitation step
   kind: actor
   entities: []
   contexts:
@@ -117,7 +117,7 @@ references:
 
 ## Trigger
 
-The signed-in Account creates an owned Workspace through the inspected use-case setup path with Email Integration disabled.
+The signed-in Account creates an owned Workspace through the inspected setup path.
 
 ## Outcome
 

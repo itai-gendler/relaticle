@@ -114,7 +114,7 @@ unmapped:
   - packages/Chat/src/Http/Controllers/MessageFeedbackController.php
   - packages/Chat/src/Http/Controllers/ChatAttachmentController.php
   - packages/Chat/src/Tools/Workspace/RemoveSampleDataTool.php
-- description: Email-enabled setup and full sample-generation code
+- description: Full sample-generation code
   paths:
   - app/Actions/Onboarding/
   - packages/OnboardSeed/
@@ -140,6 +140,11 @@ limitations:
   paths:
   - app/Filament/Resources/
   - app/Filament/CustomFields/
+- description: Email-enabled setup models the mailbox and sharing steps as setup progress;
+    the connected mailbox and its sharing level are kept by unmapped email integration code
+  paths:
+  - app/Filament/Pages/Concerns/RunsMailboxSteps.php
+  - packages/EmailIntegration/
 - description: Cashier cleanup and payment failure lifecycle extends beyond inspected
     access derivation
   paths:

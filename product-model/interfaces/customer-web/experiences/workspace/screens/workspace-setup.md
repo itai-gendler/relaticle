@@ -26,4 +26,4 @@ references:
 
 # Workspace setup
 
-The inspected use-case and invitation completion process for one workspace.
+The inspected setup process for one workspace: mailbox and sharing steps where Email Integration is enabled, then use case and invitations.
